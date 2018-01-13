@@ -1,0 +1,52 @@
+html body
+{
+	height: 70vh;
+	background: #82AF9D;
+	overflow-y:scroll;
+
+}
+
+/*The container for the header*/
+#headerContainer
+{
+	position: relative;
+	width: 25%;
+	text-align: center;
+	margin-top: 40vh;
+	border: solid black;
+}
+/*The container for the answer*/
+#aContainer
+{
+	position: relative;
+	text-align: right;
+	margin-top: -10vh;
+	height: 10vh;
+	font-size: 1vw;
+}
+
+p
+{
+	font-size: 1.2vw;
+}
+/*The button container*/
+#buttonContainer
+{
+	position: relative;
+	width: 50%;
+	text-align: right;
+	margin-top: 40vh;
+	margin-left: -20vw;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+button
+{
+	position: relative;
+	background: transparent;
+	border: solid black;
+	font-size: 1vw;
+}

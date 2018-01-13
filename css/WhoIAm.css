@@ -1,0 +1,44 @@
+/*The Css for WhoIAm.html*/
+html body
+{
+	height: 100%;
+	overflow: hidden;
+}
+/*The container for the header*/
+#headerContainer
+{
+	position: relative;
+	width: 25%;
+	text-align: center;
+	margin-top: 40vh;
+	border: solid black;
+}
+/*The container for the answer*/
+#aContainer
+{
+	position: relative;
+	text-align: right;
+	margin-top: -10vh;
+	height: 10vh;
+	font-size: 1vw;
+}
+p
+{
+	font-size: 1.2vw;
+}
+/*The button container*/
+#buttonContainer
+{
+	position: relative;
+	width: 50%;
+	text-align: right;
+	margin-top: 45vh;
+}
+
+button
+{
+	position: relative;
+	background: transparent;
+	border: solid black;
+	font-size: 1vw;
+}
