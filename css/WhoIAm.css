@@ -9,18 +9,16 @@ html body
 #headerContainer
 {
 	position: relative;
-	width: 25%;
+	width:100%;
 	text-align: center;
-	margin-top: 40vh;
 	border: solid black;
 }
 /*The container for the answer*/
 #aContainer
 {
 	position: relative;
-	text-align: right;
-	margin-top: -15vh;
-	height: 10vh;
+	width:100%;
+	text-align: center;
 }
 p
 {
