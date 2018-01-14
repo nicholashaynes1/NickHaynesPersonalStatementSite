@@ -3,6 +3,7 @@ html body
 {
 	height: 100%;
 	overflow: hidden;
+	margin:0;
 }
 /*The container for the header*/
 #headerContainer
@@ -18,13 +19,12 @@ html body
 {
 	position: relative;
 	text-align: right;
-	margin-top: -10vh;
+	margin-top: -15vh;
 	height: 10vh;
-	font-size: 1vw;
 }
 p
 {
-	font-size: 1.2vw;
+	font-size: 1.4vw;
 }
 /*The button container*/
 #buttonContainer
@@ -32,7 +32,7 @@ p
 	position: relative;
 	width: 50%;
 	text-align: right;
-	margin-top: 45vh;
+	margin-top: 40vh;
 }
 
 button

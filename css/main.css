@@ -16,15 +16,20 @@ html, body
 	text-align: center;
 }
 
+#buttonContainer
+{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 40vh;
+}
+
 /*The style for the next page button*/
 #toWhoIAmButton
 {
 	position: relative;
-	margin-left: 90vw;
-	background: black;
-	font-size: 1vw;
-	border: solid white;
 	color:white;
+	background: transparent;
 }
 
 /*The div stylingx for the border/expanding square*/
