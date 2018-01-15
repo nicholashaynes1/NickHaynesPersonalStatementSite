@@ -2,7 +2,7 @@ html body
 {
 	height: 70vh;
 	background: #82AF9D;
-	overflow-y:scroll;
+	margin:0;
 
 }
 
@@ -10,37 +10,44 @@ html body
 #headerContainer
 {
 	position: relative;
-	width: 25%;
+	width:100%;
+	margin-top:25vh;
 	text-align: center;
-	margin-top: 40vh;
-	border: solid black;
 }
+
+h1
+{
+	font-size: 15vw;
+}
+
 /*The container for the answer*/
 #aContainer
 {
 	position: relative;
-	text-align: right;
-	margin-top: -10vh;
-	height: 10vh;
-	font-size: 1vw;
+	width:100%;
+	margin-top: 30%;
+	text-align: center;
 }
 
 p
 {
-	font-size: 1.2vw;
+	font-size: 2.2vw;
+	letter-spacing: 2px;
+	line-height: 35px;
 }
+
+
 /*The button container*/
 #buttonContainer
 {
 	position: relative;
-	width: 50%;
-	text-align: right;
-	margin-top: 40vh;
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+	margin-bottom: 5%;
+
 }
 
-::-webkit-scrollbar { 
-    display: none; 
-}
 
 button
 {
