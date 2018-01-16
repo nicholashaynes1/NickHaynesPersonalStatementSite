@@ -33,7 +33,7 @@ function involvementLoad()
 	window.location = "C:/Users/Nick/Documents/WebsiteWorkspace/NickHaynesPersonalStatementSite/webPages/Involvement.html";
 }
 
-function involvementLoad()
+function thankYouLoad()
 {
 	window.location = "C:/Users/Nick/Documents/WebsiteWorkspace/NickHaynesPersonalStatementSite/webPages/ThankYou.html";
 }

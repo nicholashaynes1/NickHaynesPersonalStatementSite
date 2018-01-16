@@ -1,7 +1,7 @@
 html body
 {
 	height: 70vh;
-	background: #82AF9D;
+	background: white;
 	margin:0;
 
 }
@@ -33,7 +33,7 @@ p
 {
 	font-size: 2.2vw;
 	letter-spacing: 2px;
-	line-height: 35px;
+	line-height: 5vh;
 }
 
 
