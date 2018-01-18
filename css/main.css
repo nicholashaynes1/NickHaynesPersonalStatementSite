@@ -34,6 +34,7 @@ html, body
 	background: transparent;
 	font-size: 1vw;
 	animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
 }
 
 
@@ -47,6 +48,7 @@ html, body
 	width: 38%;
 	height:100%;
     animation: FirstReveal 1.5s;
+    -moz-animation: FirstReveal 1.5s;
     border:solid white;
     background: black;
 }
@@ -55,6 +57,7 @@ html, body
 #header
 {
 	text-align: center;
+	-moz-animation: FirstReveal 1.5s;
 	animation: Font-grow 1.5s;
 	font-family: Dense-Regular, bold;
 	font-size: 2vw;
@@ -79,6 +82,28 @@ html, body
 }
 
 @keyframes fadeIn
+{
+	0%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes FirstReveal
+{
+	0% {width:0%; height:0%;}
+	50% {width:38%; height:0%;}
+    100% {width:38%;height:100%;}
+}
+
+@-moz-keyframes Font-grow
+{
+	0%{font-size: 0vw;}
+	50%{font-size: 0vw;}
+	100%{font-size: 2vw;}
+}
+
+@-moz-keyframes fadeIn
 {
 	0%{opacity: 0;}
 	50%{opacity: 0;}
