@@ -16,6 +16,8 @@ html, body
 	text-align: center;
 }
 
+
+
 #buttonContainer
 {
 	position: relative;
@@ -33,6 +35,8 @@ html, body
 	font-size: 1vw;
 	animation: fadeIn 2s;
 }
+
+
 
 /*The div stylingx for the border/expanding square*/
 #landingReveal

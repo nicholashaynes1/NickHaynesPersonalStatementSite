@@ -31,6 +31,21 @@ p
 	letter-spacing: 2px;
 	line-height: 5vh;
 }
+
+@font-face
+{
+	font-family: "CollegeBlock";
+	src:url(fonts/CollegeBlock.otf);
+}
+
+#collegeFont
+{
+	margin:0;
+	color:red;
+	font-size: 2.2vw;
+	font-family: "CollegeBlock", bold;
+}
+
 /*The button container*/
 #buttonContainer
 {
@@ -48,3 +63,4 @@ button
 	border: solid black;
 	font-size: 1vw;
 }
+
