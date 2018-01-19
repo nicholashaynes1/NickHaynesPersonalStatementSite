@@ -15,6 +15,12 @@ html body
 	text-align: center;
 }
 
+#imageContainer
+{
+	width: 100%;
+	text-align: center;
+}
+
 h1
 {
 	font-size: 14vw;
@@ -26,7 +32,7 @@ h1
 {
 	position: relative;
 	width:100%;
-	margin-top: 30%;
+	margin-top: 20%;
 	text-align: center;
 }
 
