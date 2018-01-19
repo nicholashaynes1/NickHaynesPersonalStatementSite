@@ -20,12 +20,19 @@ h1
 	font-size: 14vw;
 }
 
+#imageContainer
+{
+	width: 100%;
+	text-align: center;
+	font-size: 1.2vw;
+}
+
 /*The container for the answer*/
 #aContainer
 {
 	position: relative;
 	width:100%;
-	margin-top: 30%;
+	margin-top: 10%;
 	text-align: center;
 }
 

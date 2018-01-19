@@ -21,12 +21,20 @@ h1
 	color:white;
 }
 
+#imageContainer
+{
+	width: 100%;
+	text-align: center;
+	font-size: 1.2vw;
+}
+
+
 /*The container for the answer*/
 #aContainer
 {
 	position: relative;
 	width:100%;
-	margin-top: 30%;
+	margin-top: 18%;
 	text-align: center;
 }
 
